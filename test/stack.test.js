@@ -1,3 +1,6 @@
+const assert = require('assert');
+const Stack = require('../Stack');
+
 describe("Using a stack", function(){
 
     it("you should be able to push and pop 1 value", function (){

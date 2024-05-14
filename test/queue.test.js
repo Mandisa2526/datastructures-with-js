@@ -1,3 +1,6 @@
+const assert = require('assert');
+const Queue = require('../Queue');
+
 describe("Using a queue", function(){
 
     it("you should be able to enqueue values and get it back", function (){
@@ -13,10 +16,10 @@ describe("Using a queue", function(){
         assert.equal(undefined, queue.dequeue());
 
     });
-
-    it("you should be able to instantiate an empty stack", function (){
+    it("you should be able to instantiate an empty queue", function (){
         const queue = Queue();
-        assert.equal(undefined, queue.pop());
+        assert.equal(undefined, queue.dequeue());
     });
+    
     
 })

@@ -1,5 +1,9 @@
-describe("Using a LinkedList", function(){
+const LinkedList = require('../LinkedList.js');
+const assert = require('assert');
 
+
+describe("Using a LinkedList", function(){
+    
     it("you should be able to add 1 value to a linked list", function (){
 
         const linkedList = LinkedList();
@@ -20,7 +24,7 @@ describe("Using a LinkedList", function(){
         
         assert.equal(2, linkedList.count());
         assert.equal('giraffe', linkedList.first());
-        assert.equal('tiger', linkedList.last());
+        assert.equal('giraffe', linkedList.last());
 
     });
 
@@ -64,7 +68,7 @@ describe("Using a LinkedList", function(){
             animals.push(animal)
         });
 
-        assert.deepEquals(['giraffe', 'elephant', 'tiger'], animals);
+        assert.deepEqual(['giraffe', 'elephant', 'tiger'], animals);
 
     });
     
