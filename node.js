@@ -22,3 +22,5 @@ function Node(value, nextNode) {
 
 }
 
+module.exports = Node;
+

@@ -1,0 +1,19 @@
+{
+  "name": "datastructures-with",
+  "version": "1.0.0",
+  "description": "Learn about data structures implementing a Stack, Queue & finally a LinkedList.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  }
+}
